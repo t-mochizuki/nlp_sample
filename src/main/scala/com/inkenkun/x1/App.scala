@@ -25,9 +25,9 @@ object App {
     val m32z = DenseMatrix.zeros[Double](3, 2)
     println( m32z )
 
-    // #3. 2 x 2の1埋め行列を作成
-    //      1 1
-    //      1 1
+    // #3. 2 x 2のゼロ埋め行列を作成
+    //      0 0
+    //      0 0
     val m22o = DenseMatrix.zeros[Double](2, 2)
     println( m22o )
 
